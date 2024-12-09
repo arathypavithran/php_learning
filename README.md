@@ -8,4 +8,12 @@ PHP Learning From Rogersoft
 **Edited Files**
 * Dec-06-2024\Excersise1Resume.html
 
+**December 09, 2024**
+* Learned Grid, Container concept, bootstrap concept.
+* Image,text,list,form,table bootstrap properties.
+   
+**Edited Files**
+* December2024\Dec-09-2024\bootstrap.html
+* December2024\Dec-09-2024\stylechanging.html
+
 
