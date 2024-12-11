@@ -2,6 +2,13 @@
 PHP Learning From Rogersoft
 
 **December 10, 2024**
+* Learned javascript basics 
+* Operators,switch,condition statements if and else.
+ 
+**Edited Files**
+* December2024\Dec-11-2024\javascript.html
+  
+**December 10, 2024**
 * Learned Flexbox concept and bootstrap styling.
  
 **Edited Files**
