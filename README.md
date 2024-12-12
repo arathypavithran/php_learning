@@ -1,7 +1,12 @@
 # php_learning
 PHP Learning From Rogersoft
 
-**December 10, 2024**
+**December 12, 2024**
+* Learned javascript Looping concept(for loop)
+**Edited Files**
+* December2024\Dec-12-2024\loop_javascript.html
+  
+**December 11, 2024**
 * Learned javascript basics 
 * Operators,switch,condition statements if and else.
  
