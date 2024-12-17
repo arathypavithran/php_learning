@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function sum() {
+            a = 10;
+            b = 20;
+            document.write(a + b);
+        }
+        function sum1(v1, v2) {
+            document.write(v1 + v2);
+        }
+        function sum2(v1, v2) {
+            return (v1 + v2);
+        }
+        function sum3() {
+            a = 9; b = 7;
+            return (a + b)
+        }
+        sum()
+        sum1(6, 7)
+        s = sum2(6, 5);
+        document.write(s)
+        s = sum3();
+        document.write(s);
+
+    </script>
+    <br>
+    <script>
+        function sub() {
+            a = 20;
+            b = 10;
+            document.write(a - b + "<br>");
+        }
+
+        function sub1(v1, v2) {
+            document.write(v1 - v2 + "<br>");
+        }
+        function sub2(v1, v2) {
+            return (v1 - v2 + "<br>")
+        }
+        function sub3() {
+            a = 20;
+            b = 10;
+            return (a - b + "<br>")
+        }
+        sub();
+        sub1(100, 50);
+        s = sub2(30, 20);
+        document.write(s);
+        s = sub3();
+        document.write(s);
+    </script>
+    <br>
+    <script>
+        document.write("Arithmetic Operators" + "<br>")
+
+        function add() {
+            a = 20;
+            b = 30;
+            document.write("sum of" + " " + a + " " + "&" + b + " " + "=" + " " + (a + b) + "<br>");
+        }
+        function sub(v1, v2) {
+            document.write("sub of" + " " + v1 + " " + "&" + v2 + " " + "=" + " " + (v1 - v2) + "<br>");
+        }
+        function div() {
+            a = 10;
+            b = 2;
+            return ("div of" + " " + a + " " + "&" + b + " " + "=" + " " + (a / b) + "<br>");
+        }
+        function mul(v1, v2) {
+            return ("modulus of" + " " + v1 + " " + "&" + v2 + " " + "=" + " " + (v1 * v2) + "<br>")
+        }
+        add();
+        sub(20, 10);
+        s = div();
+        document.write(s);
+        s = mul(10, 20);
+        document.write(s);
+
+    </script>
+
+    <br>
+    <script>
+        function area(l, b) {
+            return ("area of rectangle is" + (l * b));
+
+        }
+        s = area(2, 5);
+        document.write(s);
+
+    </script>
+    <br>
+
+    <script>
+        function square(v1) {
+            return (v1 * v1);
+        }
+        a = 1;
+        b = 2;
+        c = 3;
+        d = 4;
+        s = a + square(b) + square(c) + square(d);
+        document.write(s);
+
+
+
+    </script>
+    <br>
+
+    <script>
+
+        function empdetails() {
+            for (i = 0; i < 5; i++) {
+                id = prompt("Enter the id of employee");
+                name = prompt("Enter the name");
+                salary = prompt("Enter the salary");
+                n[i] = { id, name, salary };
+            }
+        }
+    </script>
+
+
+
+    <script>
+
+        function DisplayEmployees(n) {
+            n = parseInt(prompt("Enter the number of employees:"));
+            emp = [];
+
+            for (i = 0; i < n; i++) {
+                
+                    id = prompt("Enter ID: ");
+                    name = prompt("Enter name: ");
+                    salary = prompt("Enter salary: ");
+                    emp[i] = {id, name, salary};
+                }
+            
+
+
+            document.write("<h2>Employee Details:</h2>");
+
+
+            for (j of emp) {
+
+                document.write("ID:" + [j.id] + " " + "Name:" + [j.name] + " " + "salary" + [j.salary] + "<br>")
+            }
+        
+
+        }
+        DisplayEmployees();
+
+    </script>
+
+</body>
+
+</html>

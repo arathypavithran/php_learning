@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        numbers=[10,20,30,40,50]
+        num=new Array(1,6,7,9)
+        
+        //document.write(numbers[0])
+        for(i in numbers){
+            document.write(i);
+        }
+        for(i of num)
+         document.write(i)
+    </script>
+<br>
+    <script>
+        sum=0;
+        document.write("sum of elements in an array" + "<br>")
+        numbers=[10,20,30,40]
+        for(i of numbers){
+            sum+=i;
+           
+        }
+        document.write(sum)
+    </script>
+    <br>
+    <script>
+        document.write("maximum" + "<br>")
+        n=[10,20,40,30]
+        max=n[0]
+       // document.write(max)
+        for(i of n){
+           
+            if(i>max){
+               max=i; 
+            }
+        }
+        document.write(max)
+       
+    </script>
+<br>
+    <script>
+document.write("print array of elements" +"<br>")
+n=[[1,2],[3,4],[5,6,7]]
+
+        for(i of n){
+           for(j of i){
+            document.write(j+" ")
+           }
+           document.write("<br>")
+        }
+        
+    </script>
+</body>
+</html>
