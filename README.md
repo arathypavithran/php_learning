@@ -1,6 +1,17 @@
 # php_learning
 PHP Learning From Rogersoft
 
+**December 16, 2024**
+* Learned javascript arrays and functions
+**Edited Files**
+* December2024\Dec-16-2024\arrays.html
+* December2024\Dec-16-2024\functions.html
+
+**December 13, 2024**
+* Learned javascript patterns
+**Edited Files**
+* December2024\Dec-13-2024\loop.html
+
 **December 12, 2024**
 * Learned javascript Looping concept(for loop)
 **Edited Files**
