@@ -28,7 +28,7 @@
             }
             pattern += "<br>"
         }
-        document.write("<br>")
+        document.write("<br>" )
         document.write(pattern)
     </script>
 
@@ -76,16 +76,17 @@
     </script>
     <br>
     <script>
-        row = '';
+       
         for (i = 1; i <= 5; i++) {
             row = " ";
 
             for (j = 1; j <= 5 - i; j++) {
-                row += " ";
+                row += "&nbsp;";
             }
 
             for (k = 1; k <= i; k++) {
-                row += k + " ";
+                row += k + "&nbsp;";
+               
             }
 
             document.write(row + "<br>");
@@ -93,7 +94,7 @@
 
     </script>
 
-
+   
 </body>
 
 </html>
