@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function f1(s) {
+
+            alert("i am  " + s)
+        }
+        function f2() {
+            var n = document.getElementById("t1").value;
+            document.getElementById("result").innerHTML = "<h1>" + n + "</h1>"
+        }
+
+    </script>
+</head>
+
+<body>
+    <input type="text" name="t1" id="t1" placeholder="your name">
+    <button onclick="f1(t1.value)"> Hello</button>
+    <button onclick="f2()"> Hello2</button>
+    <p id="result"></p>
+
+
+    <!-- new  -->
+    <input type="text" name="t" id="t" placeholder="Enter your name">
+    <button onclick="alert('iam' + t.value)">Submit</button>
+    <button onclick="b1(t.value)">Hello</button>
+    <button onclick="b2()">Save</button>
+    <p id="result"></p>
+    <button onclick="b3()">Submit1</button>
+    <p id="result1"></p>
+
+    <script>
+        function b1(s) {
+            alert("I am " + s)
+        }
+        function b2() {
+            var n = document.getElementById("t").value
+            document.getElementById("result").innerText = "<h1>" + n + "</h1>"
+
+        }
+        function b3() {
+            var m = document.getElementById("t").value
+            document.getElementById("result1").innerHTML = "<h1>" + m + "</h1>"
+        }
+    </script>
+
+
+    <!-- button show and hide -->
+    <input type="text" name="t1" id="t11" placeholder="Enter text">
+    <button onclick="show()">Show</button>
+    <p id="showresult"></p>
+
+    <script>
+        function show() {
+
+            var s = document.getElementById("t11").value
+            alert(s)
+            document.getElementById("showresult").innerHTML = "<h3>" + s + "</h3>"
+        }
+    </script>
+
+
+    <h2>show and hide</h2>
+    <button onclick="showtext()">Show</button>
+    <button onclick="hidetext()">Hide</button>
+    <p id="showtext" style="display:none">sddf</p>
+
+    <script>
+
+
+        function showtext() {
+
+            document.getElementById("showtext").style.display = "block"
+
+        }
+        function hidetext() {
+            document.getElementById("showtext").style.display = "none"
+        }
+
+    </script>
+
+
+
+    <h2>toogle button</h2>
+    <button onclick="showhide1()">show/hide</button>
+    <p id="showhide1" style="display: none;">fff</p>
+    <script>
+
+        function showhide1() {
+
+            var sh1 = document.getElementById("showhide1")
+            if (sh1.style.display == "block") {
+                document.getElementById("showhide1").style.display = "none"
+            }
+            else {
+                document.getElementById("showhide1").style.display = "block"
+            }
+        }
+    </script>
+
+
+    <!-- Add event listener -->
+    <h2>toogle button</h2>
+    <button id="sh">show/hide</button>
+    <p id="showhide" style="display: none;">ddd</p>
+
+    <script src="../myscript.js"></script>
+
+<!-- clock -->
+
+<h2>Clock</h2>
+<div id="clock" style="font-size: 2em;font-weight: bold;"></div>
+<script src="../myscript.js"></script>
+
+</body>
+
+
+
+</html>
