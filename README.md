@@ -1,6 +1,21 @@
 # php_learning
 PHP Learning From Rogersoft
 
+**December 17, 2024**
+* Learning php form data fetching using get and post methods
+  
+**Edited Files**
+* December2024\Dec-18-2024\hello.php
+* December2024\Dec-18-2024\sample.php
+  
+**December 17, 2024**
+* Learned events and addEventListner
+* Learned document.getElementById
+  
+**Edited Files**
+* December2024\Dec-16-2024\arrays.html
+* December2024\Dec-16-2024\functions.html
+  
 **December 16, 2024**
 * Learned javascript arrays and functions
 **Edited Files**
