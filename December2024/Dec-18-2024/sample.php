@@ -49,6 +49,7 @@ echo "The sum of"." ".$a ." " ."and". $b ." " . "is"." ". "<b>".$c;
  ?>
 <input type="date" name="dob" id="dob" placeholder="DOB" min='<?php echo $currentDate;?>' ><br><br>
 <label for="gender">Gender</label>
+<input type="date" name="" id="" value="2020-01-01">
 <input type="radio" name="gender" id="gender" value="male" checked>Male
 <input type="radio" name="gender" id="gender" value="female">Female</br></br>
 <label for="hobbies">Hobbies</label>
