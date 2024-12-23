@@ -1,7 +1,23 @@
 # php_learning
 PHP Learning From Rogersoft
 
-**December 17, 2024**
+**December 23, 2024**
+* String Functions
+* $GLOBAL variables
+  
+**Edited Files**
+* December2024\Dec-23-2024\stringfunctions.php
+* December2024\Dec-23-2024\test_get.php
+
+**December 19, 2024**
+* Learning php control array statements
+* Looping statements
+  
+**Edited Files**
+* December2024\Dec-19-2024\controlarraycheckbox.php
+* December2024\Dec-19-2024\switch.php
+
+**December 18, 2024**
 * Learning php form data fetching using get and post methods
   
 **Edited Files**
