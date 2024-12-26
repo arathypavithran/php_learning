@@ -1,6 +1,16 @@
 # php_learning
 PHP Learning From Rogersoft
 
+**December 26, 2024**
+* File upload
+* Sessions
+  
+**Edited Files**
+* December2024\Dec-26-2024\fileupload.php
+* December2024\Dec-26-2024\session.php
+* December2024\Dec-26-2024\upload.php
+
+
 **December 23, 2024**
 * String Functions
 * $GLOBAL variables
