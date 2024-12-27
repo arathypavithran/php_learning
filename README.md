@@ -1,6 +1,18 @@
 # php_learning
 PHP Learning From Rogersoft
 
+**December 27, 2024**
+* Cookies
+* PHP Files(w,r,fopen,fgets)
+* php form validation
+  
+**Edited Files**
+* December2024\Dec-27-2024\cookies.php
+* December2024\Dec-27-2024\formvalidation.php
+* December2024\Dec-27-2024\newfile.txt
+* December2024\Dec-27-2024\phpfiles.php
+* December2024\Dec-27-2024\tmp.txt
+
 **December 26, 2024**
 * File upload
 * Sessions
