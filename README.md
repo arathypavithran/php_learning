@@ -1,6 +1,23 @@
 # php_learning
 PHP Learning From Rogersoft
 
+
+**December 30, 2024**
+* Learning database connectivity
+* select,update,delete queries
+  
+**Edited Files**
+* January2024\dbconnect.php
+* January2024\delete.php
+* January2024\edit.php
+* January2024\mypage.php
+* January2024\oops.php
+
+**December 30, 2024**
+* Learning OOPS concept,jquery,Ajax
+**Edited Files**
+* December2024\Dec-30-2024\jquery.php
+  
 **December 27, 2024**
 * Cookies
 * PHP Files(w,r,fopen,fgets)
