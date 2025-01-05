@@ -1,0 +1,87 @@
+<html>
+    <head>
+    <script>
+function showsubcategory(str) {
+    //alert(str);
+    if (str == "") {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else { 
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+                document.getElementById("subcat_id").innerHTML = xmlhttp.responseText;
+            }
+        };
+        xmlhttp.open("GET","getsubcategory.php?id="+str,true);
+        xmlhttp.send();
+    }
+}
+</script>
+
+</head>
+
+
+
+<form action="#" method="POST">
+<label for="proname">Product name</label>
+<input type="text" name="proname" id="proname" placeholder="Enter your product name"><br><br>
+<label for="rate">Product rate</label>
+<input type="text" name="rate" id="rate" placeholder="Enter your product rate"><br><br>
+<label for="catid">category</label>
+<select name="cat_id" id="cat_id" onchange=showsubcategory(this.value)>
+<option value="cat_id"> -Select-   </option>
+<?php
+   require "dbconnect.php";
+   $query="select * from category";
+   $result=mysqli_query($con,$query);
+   while($row=mysqli_fetch_array($result)){
+    echo "<option value=$row[0]>$row[1]</option>";
+   }
+    ?>
+</select><br><br>
+<label for="subcatid">Subcategory id</label>
+<select name="subcat_id" id="subcat_id" ></br>
+<option value="subcat_id"> -Select-   </option>
+
+<?php
+require "dbconnect.php";
+$query="select * from subcategory";
+$result=mysqli_query($con,$query);
+while($row=mysqli_fetch_array($result)){
+    echo "<option value=$row[0]>$row[1]</option>";
+   }
+?>
+</select><br><br>
+<label for="image">Product Image</label>
+<input type="file" name="proimage" id="proimage"><br><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
+<?php
+require "dbconnect.php";
+// $obj= new db;
+
+if(isset($_POST["submit"]))
+{
+$product_name=$_POST["proname"];
+$product_rate=$_POST["rate"];
+$category_id=$_POST["cat_id"];
+$subcategory_id=$_POST["subcat_id"];
+$image=$_POST["proimage"];
+
+$query="insert into product(product_name,subcat_id,product_rate,product_image) values('$product_name','$subcategory_id','$product_rate','$image')";
+echo $query;
+$result=mysqli_query($con,$query);
+echo("successfull inserted");
+
+}
+?>
+
+

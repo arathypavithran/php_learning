@@ -1,6 +1,24 @@
 # php_learning
 PHP Learning From Rogersoft
 
+**January 03, 2025**
+* Leraning database connectivity and doing project including these concepts
+  
+**Edited Files**
+* sampleproject
+  
+**January 02, 2025**
+* Leraning database connectivity and doing project including these concepts
+  
+**Edited Files**
+* January2024\Jan-02-2025
+  
+**January 01, 2025**
+* Learning oops concet
+  
+**Edited Files**
+* January2024\Jan-01-2025
+  
 
 **December 30, 2024**
 * Learning database connectivity
