@@ -1,6 +1,26 @@
 # php_learning
 PHP Learning From Rogersoft
 
+**January 08, 2025**
+* Login using sessions
+  
+**Edited Files**
+* sampleproject\userregistration
+  
+
+**January 07, 2025**
+* Display orders
+  
+**Edited Files**
+* sampleproject
+  
+**January 06, 2025**
+* place order page.added new table for order
+  
+**Edited Files**
+* sampleproject
+  
+
 **January 03, 2025**
 * Leraning database connectivity and doing project including these concepts
   
@@ -119,7 +139,6 @@ PHP Learning From Rogersoft
  
 **Edited Files**
 * December2024\Dec-10-2024\excersice1.html
-
 **December 09, 2024**
 * Learned Grid, Container concept, bootstrap concept.
 * Image,text,list,form,table bootstrap properties.

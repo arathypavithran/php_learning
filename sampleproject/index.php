@@ -25,7 +25,8 @@ $index = 1; // Initialize the index counter
     <div class="dashboard">
         <h1>Product Dashboard</h1>
         <!-- Add Product Button -->
-        <div class="add-button">
+         <div style="margin-left: 139px;">
+         <div class="add-button">
             <a href="product.php" style="text-decoration: none;">
                 <button class="add-product">Add Product</button>
             </a>
@@ -36,7 +37,13 @@ $index = 1; // Initialize the index counter
             <a href="subcategory.php" style="text-decoration: none;">
                 <button class="add-product">Add Subcategory</button>
             </a>
+
+            <a href="orderdetails.php" style="text-decoration: none;">
+                <button class="add-product">Orders</button>
+            </a>
+            
         </div><br><br>
+</div>
 
         <table border="1" cellspacing="0" cellpadding="10">
             <thead>
